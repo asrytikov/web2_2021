@@ -35,3 +35,35 @@ body {
     font-size: 20px;
     line-height: initial;   
 }
+
+.primary-nav-trigger .menu-icon{
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    width: 38px;
+    height: 2px;
+    background-color: black;
+}
+
+.primary-nav-trigger .menu-icon::before, .primary-nav-trigger .menu-icon::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.primary-nav-trigger .menu-icon::before{
+    top: -9px;
+}
+
+.primary-nav-trigger .menu-icon::after{
+    top: 9px;
+}
+
+.banner{
+    background: url(images/slider.jpg) #696969;
+    background-blend-mode: multiply, normal;
+    
+}

@@ -65,5 +65,19 @@ body {
 .banner{
     background: url(images/slider.jpg) #696969;
     background-blend-mode: multiply, normal;
-    
+    display: flex;
+    color: #d6d5d5;
+    align-items: center;
+    min-height: 650px;
+    width: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+.banner h2{
+    font-size: 3rem;
+}
+
+.banner p{
+    font-size: 2rem;
 }

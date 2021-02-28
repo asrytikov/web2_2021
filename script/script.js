@@ -1,5 +1,5 @@
 $(document).ready(function(){
     $('.bxslider').bxSlider({
-        pager:false,
+        pager: false,
     });
 });

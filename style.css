@@ -72,3 +72,26 @@ body {
     font-size: 12px;
     font-weight: 700;
 }
+
+@font-face{
+    font-family: 'bignoodletitling';
+    src: url('font/bignoodletitling.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3{
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.head_white_content{
+    padding: 5%;
+    text-align: center;
+    width: 100%;
+}
+
+.head_white_content p{
+    padding: 20px 90px 0px;
+    color: #696969;
+}

@@ -167,3 +167,21 @@ h4{
     margin: 25px auto 0;
     background: #404040;
 }
+
+.numeral>div>span{
+    font-size: 60px;
+    color: #ff7062;
+}
+
+
+.numeral>div>p{
+    color: #d8cdcd;
+    font-size: 15px;
+    padding: 27px;
+}
+
+.numeral>div>h5{
+    font-size: 35px;
+    color: #f3e7e6;
+    font-weight: 100;
+}

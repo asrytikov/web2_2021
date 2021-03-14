@@ -141,3 +141,29 @@ h3{
     font-size: 14px;
     line-height: 100%;
 }
+
+.somefutures{
+    background-color: #171f23;
+    text-align: center;
+    color: #f6f6f6;
+    padding: 60px 0;
+    display: block;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.head_black_content{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.head_black_content span{
+    display: inline-block;
+    width: 80px;
+    height: 1px;
+    margin: 25px auto 0;
+    background: #404040;
+}

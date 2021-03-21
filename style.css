@@ -239,3 +239,11 @@ h4{
     font-weight: 700;
     padding: 10px 30px;
 }
+
+.price-content:hover{
+    border: 1px solid #f4511e;
+}
+
+.price-content:hover .price-content-body>p>span{
+    color: #f4511e;
+}

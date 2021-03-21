@@ -185,3 +185,15 @@ h4{
     color: #f3e7e6;
     font-weight: 100;
 }
+
+.price{
+    background-color: #171f23;
+    text-align: center;
+    color: #f6f6f6;
+    padding: 60px 0;
+    display: block;
+}
+
+.price>div>div>p{
+    padding: 20px;
+}

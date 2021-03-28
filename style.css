@@ -275,3 +275,19 @@ h4{
     text-align: left;
     padding: 9% 5%;
 }
+
+.sinner2 h4{
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+.team{
+    padding-bottom: 90px;
+}
+
+.team .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    left: -34%;
+}

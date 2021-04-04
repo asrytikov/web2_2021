@@ -350,3 +350,27 @@ h4{
     transition: 0.5s;
     background: white;
 }
+
+.map{
+    background-color: #171f23;
+    text-align: center;
+    color: #f6f6f6;
+    padding: 20px 0 0;
+}
+
+.map span{
+    margin-left: 10px;
+    font-weight: 700;
+    color: #f15324;
+    font-size: 24px;
+}
+
+.accordion-open span::before{
+    font-family: 'Linearicons-Free';
+    content: "\e873";
+}
+
+.accordion-close span::after{
+    font-family: 'Linearicons-Free';
+    content: "\e874";
+}

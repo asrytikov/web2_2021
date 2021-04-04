@@ -358,6 +358,11 @@ h4{
     padding: 20px 0 0;
 }
 
+.map h3{
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
 .map span{
     margin-left: 10px;
     font-weight: 700;
@@ -373,4 +378,16 @@ h4{
 .accordion-close span::after{
     font-family: 'Linearicons-Free';
     content: "\e874";
+}
+
+footer{
+    background-color: #171f23;
+    text-align: center;
+    color: #f6f6f6;
+    padding: 20px 0 0;
+}
+
+footer h4{
+    padding-top: 6px;
+    font-size: 24px;
 }

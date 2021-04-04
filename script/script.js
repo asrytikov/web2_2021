@@ -6,4 +6,7 @@ $(document).ready(function(){
         pager: false,
         controls: false
     });
+    $('.accordion').accordion({
+        defaultOpen:''
+    });
 });

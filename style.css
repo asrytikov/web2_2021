@@ -429,7 +429,7 @@ footer h4{
 
 .portfolio-wrapper{
     overflow: hidden;
-    position: relative;
+    position: relative !important;
     cursor: pointer;
 }
 
@@ -459,4 +459,9 @@ footer h4{
 .imgDisc2 h1{
     font-size: 20px;
     text-transform: uppercase;
+}
+
+.portfolio-wrapper:hover .imgDisc2{
+    visibility: visible;
+    opacity: 1;
 }

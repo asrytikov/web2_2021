@@ -1,4 +1,16 @@
 $(document).ready(function(){
+    let filterList = {
+        init: function(){
+            $('.workportfolio').mixitup({
+                targetSelector: '.portfolio',
+                filterSelector: '.filter',
+                effects: ['fade'],
+                easing: 'snap'
+            });
+        },
+    };
+filterList.init();
+console.log(filterList);
     $('.bxslider').bxSlider({
         pager: false,
     });
@@ -9,18 +21,6 @@ $(document).ready(function(){
     $('.accordion').accordion({
         defaultOpen:''
     });
-    $(function(){
-        let filterlist = {
-            init: function(){
-                $('.workportfolio').mixitup({
-                    targetSelection: '.portfolio',
-                    filterSelection: '.filter',
-                    effects: ['fade'],
-                    easing: 'snap'
-                });
-            },
-        };
-        filterlist.init();
-    });
-
+    
+    
 });
